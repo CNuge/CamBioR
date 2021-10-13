@@ -1,1 +1,3 @@
+useDynLib(CamBioR, .registration=TRUE)
 exportPattern("^[[:alpha:]]+")
+importFrom(Rcpp, evalCpp)
